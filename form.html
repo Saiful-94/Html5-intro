@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha form </title>
+    <link rel="stylesheet" href="Style/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom:10px ;
+        }
+        h2{
+            text-align: center;
+            color: royalblue;
+            border: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav> 
+        <ul>
+            <li><a href="form.html"> Home</a> </li>
+            <li>
+                <a href="non-semantic.html"> About</a> 
+                <ul class="dropdown">
+                    <li><a href="form.html"> A</a> </li>
+                    <li><a href="non-semantic.html">G</a> </li>
+                    <li> <a href="audio-video.html">Media</a> </li>
+                  </ul>
+            </li>
+        
+            <li> <a href="audio-video.html">Media</a> </li>
+            
+        </ul>
+    </nav>
+    <h2>Welcome to Roshon' vellaa</h2>
+    <form> 
+        <label for=" Your Name"></label>
+        <input id="name" type="text" placeholder="Type ur name">
+        <label for=" Your Ph"></label>
+        <input id="name" type="email" placeholder="Type ur ph number">
+
+        <fieldset>
+            <legend> Pic one pitha only</legend>
+            <label for="Chitoy">
+            <input type="radio" name="pitha" id="Chitoy">
+            Chitoy
+            
+            <label for="vhapa">
+            <input type="radio" name="pitha" id="vhapa">
+            Vhapa
+            <label for="Coconut">
+            <input type="radio" name="pitha" id="Cpconut">
+            Coconut
+        </fieldset>
+        <fieldset>
+            <legend>Select one or more vorta</legend>
+            <label for="Sorisha">
+                <input type="checkbox" name="Vhorta" id="sorisha">
+                Sorisha
+            <label for="Sorisha">
+                <input type="checkbox" name="Vhorta" id="sutki">
+                Sutri
+            <label for="Sorisha">
+                <input type="checkbox" name="Vhorta" id="dal">
+                Dal
+        </fieldset>
+        <fieldset>
+            <legend>Special </legend>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <input type="reset" value="Reset">
+            <input type="Submit" value="Submit">
+           
+        </fieldset>
+
+    </form>
+</body>
+</html>
